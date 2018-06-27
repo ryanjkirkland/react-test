@@ -18,12 +18,12 @@ class TDEE extends Component {
       <div className="TDEE">
         <h3>TDEE Calculator</h3>
         <form>
-          <input type="text" placeholder="Weight..."></input><br />
-          <input type="text" placeholder="Height..."></input><br />
-          <select ref="level">
+          <input type="text" placeholder="Weight..." class="attr"></input><br />
+          <input type="text" placeholder="Height..." class="attr"></input><br />
+          <select ref="level" class="attr">
             {activityLevels}
           </select><br />
-          <input type="submit"></input>
+          <input type="submit" class="attr"></input>
         </form>
       </div>
     );

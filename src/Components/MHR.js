@@ -6,8 +6,8 @@ class MHR extends Component {
       <div className="MHR">
         <h3>Max Heart Rate Calculator</h3>
         <form>
-          <input type="text" placeholder="Age"></input><br />
-          <input type="submit"></input>
+          <input type="text" placeholder="Age" class="attr"></input><br />
+          <input type="submit" class="attr"></input>
         </form>
       </div>
     );
