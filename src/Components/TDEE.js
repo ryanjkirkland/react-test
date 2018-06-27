@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 
 class TDEE extends Component {
 
-  constructor() {
-    super();
-  }
-
   static defaultProps = {
     levels: ['Sedentary', 'Lightly Active', 'Active', 'Fucking Animal']
   }
@@ -18,12 +14,12 @@ class TDEE extends Component {
       <div className="TDEE">
         <h3>TDEE Calculator</h3>
         <form>
-          <input type="text" placeholder="Weight..." class="attr"></input><br />
-          <input type="text" placeholder="Height..." class="attr"></input><br />
-          <select ref="level" class="attr">
+          <input type="text" placeholder="Weight..." className="attr"></input><br />
+          <input type="text" placeholder="Height..." className="attr"></input><br />
+          <select ref="level" className="attr">
             {activityLevels}
           </select><br />
-          <input type="submit" class="attr"></input>
+        <input type="submit" className="attr"></input>
         </form>
       </div>
     );
